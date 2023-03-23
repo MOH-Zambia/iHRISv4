@@ -214,7 +214,7 @@ $ sudo service apache2 restart
 
 ```shell script
 $ cd /var/lib
-$ sudo git clone https://github.com/MOH-Zambia/iHRIS.git
+$ sudo git clone https://github.com/iHRIS-Kenya/iHRIS.git
 ```
 
 ### Configuring a Site
