@@ -278,7 +278,7 @@ if (!class_exists('I2CE_Wrangler',false)) {
                 }
                 else if( (bool)preg_match("/^-([a-zA-Z0-9]+)/", $args[$i], $match) ) {
                     for( $j = 0, $jl = strlen($match[1]); $j < $jl; $j++ ) {
-                        $key = $match[1]{$j};
+                        $key = $match[1][$j];
                         $out[$key] = true;
                     }
                     $last_arg = $key;
