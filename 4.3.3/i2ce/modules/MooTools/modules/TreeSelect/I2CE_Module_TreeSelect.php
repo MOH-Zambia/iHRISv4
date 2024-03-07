@@ -88,7 +88,7 @@ class I2CE_Module_TreeSelect extends I2CE_Module{
 
 
 
-    public function addAutoCompleteInputTree($template,$node,$hidden_name,$hidden_id,$selected=null,$data, 
+    public function addAutoCompleteInputTree($template,$node,$hidden_name,$hidden_id,$data,$selected=null,
                                              $tree_options=array(),$autocomplete_options=array(), $delayed = false) {
         if ($template instanceof I2CE_Page) {
             $template = $template->getTemplate();
