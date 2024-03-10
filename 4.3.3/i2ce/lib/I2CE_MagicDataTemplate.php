@@ -350,7 +350,7 @@ if (!class_exists('I2CE_MagicDataTemplate',false)) {
          * @param array of string $paths -- the current path into the $storage that we are using.  Defaults to the empty array().
          * @returns boolean. true on sucess
          */
-        public function processValues($configNode, $storage, $status=null, $vers, $paths) {
+        public function processValues($configNode, $storage, $vers, $paths, $status=null) {
             if (!$configNode instanceof DOMNode) {
                 $this->raiseError("Did not receive configuration node");
                 return false;
